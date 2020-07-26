@@ -6,3 +6,4 @@ Further he compares the `knowledge portfolio` with `financial portfolio`. And ta
 And ends with the famous quote : "It's both what you say and the way you say it". 
 
 #### CHAPTER-2
+##### Approach to become a Pragmatic Programmer
