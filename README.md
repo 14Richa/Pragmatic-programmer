@@ -8,5 +8,5 @@ And ends with the famous quote : "It's both what you say and the way you say it"
 #### CHAPTER-2
 ###### Approach to become a Pragmatic Programmer.
 In chapter two Andrew Hunt pens down few points for a pragmatic approach. He talks about duplication of a code and how it plays like an evil in software engineer life. He writes down few reasons by which duplication arises (imposed duplication, inadvertent duplication, impatient duplication and interdeveloper duplication). 
-Further in the chapter Mr. Andrew tells us about the benefit of `orthogonality` (if changes in one do not affect any other thing)in the software world.He further adds about `reversibility`.
+Further in the chapter Mr. Andrew tells us about the benefit of `orthogonality` (if changes in one do not affect any other thing)in the software world.He further adds about `reversibility`. He pens down some points regarding how to use prototypes: correctness, completeness, style and so on. He later adds about the `Domain Language` and how it influece the thinking and communication of humans. he also explaisn abot the difference between `data language` and `impretive language`. At last of chapter 2 he talks about the importance of `estimation` ion a software developer life. And ends the chapter with: "Estimate to Avoid Surprises."
 
