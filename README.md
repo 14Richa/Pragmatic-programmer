@@ -9,3 +9,4 @@ And ends with the famous quote : "It's both what you say and the way you say it"
 ###### Approach to become a Pragmatic Programmer.
 In chapter two Andrew Hunt pens down few points for a pragmatic approach. He talks about duplication of a code and how it plays like an evil in software engineer life. He writes down few reasons by which duplication arises (imposed duplication, inadvertent duplication, impatient duplication and interdeveloper duplication). 
 Further in the chapter Mr. Andrew tells us about the benefit of `orthogonality` (if changes in one do not affect any other thing)in the software world.He further adds about `reversibility`.
+
