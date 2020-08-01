@@ -26,6 +26,27 @@ Later he talks about `Debugging` and how we should `Fix the Problem, Not the Bla
 
 #### CHAPTER-3
 ###### You can't write Perfect Software
+Andrew Hunt writes that no one in the recent history of computing has ever written a piece of perfect software. Pragmatic Programmers don't trust their code , either. 
+He adds that s correct program is one that does no more and no less than it claims to do. Use:
+1. Preconditions
+2. Postconditions
+3. Invariants
+He pens down - "Write `lazy` code: be strict in what you will accept before you begin, and promise as little as possible in return". He further talks about `Data Base Computing` and how we can enymerate the design time by following these steps: 
+1. what the input domain range is
+2. what the boundary conditions are
+3. what the routine promises to deliver (and what it doesn't)
+He pens down two types of Invariants: 
+1. `Loop Invariants`: Is true before and during the loop.
+2. `Semantic Invariants`: ie the error should be on the side of not processing a transaction rather than processing a duplicate transaction.
+Andrew Hunt writes that all errors give us information, the pragmatic programmers tell themselves that if there is an error, something very, very bad has happened.
+`A dead program normally does a lot less damage than a crippled one`.
+He further adds about `Assertive Programming` and it's advantage. 
+Following are few advantages: 
+1. Assertions are also useful checks on an algorithm's operation.
+2. Don't use assertions in place of real error handling.
+3. Leave Assertions Turned On, unless you have critical performance issues.
+He lastly talks about balancing resources. 
+And ends the chapter with "Finish What You Start"
 
 
 
