@@ -13,7 +13,7 @@ Further in the chapter Mr. Andrew tells us about the benefit of `orthogonality` 
 #### CHAPTER-3
 ###### The Basic Tools 
 As the name of the chapter implies, Mr. Hunt pens down the tools that he think should be employed in all software projects. He further talks about the `power of plain text`. He mention the idea that data and code are knowledge, and any knowledge that remains readable by humans will outlast any other data. He further adds the tip "use the power of command shells". He talks about the advantage of having a power in shell that `Commandline are fairly universal, so knowing how to use them affords you a great deal of power in all kinds of environments`. He further talks about the importance of "Source Control" and "Version Control". And adds like how it give reversibility, if we want to go back to an earlier commit, and at least with git, orthogonality in that we can cherry pick changes from different commits. It also makes integrating changes from other developers far easier. And quotes - "There is no reason not to use source control".
-Later he talks about `Debugging` and how we should `Fix the Problem, Not the Blame`. Following are the points he adds while talkinmg about Debugging:
+Later he talks about `Debugging` and how we should `Fix the Problem, Not the Blame`. Following are the points he adds while talking about Debugging:
 1. Don't panic
 2. Don't waste time thinking "that's impossible"
 3. Always try to discover the root cause of the problem
@@ -24,14 +24,14 @@ Later he talks about `Debugging` and how we should `Fix the Problem, Not the Bla
 8. Trace the control flow programmatically
 9. Question everything - if the bug seems impossible, check your assumptions
 
-#### CHAPTER-3
+#### CHAPTER-4
 ###### You can't write Perfect Software
 Andrew Hunt writes that no one in the recent history of computing has ever written a piece of perfect software. Pragmatic Programmers don't trust their code , either. 
-He adds that s correct program is one that does no more and no less than it claims to do. Use:
+He adds that  correct software program is one that does no more and no less than it claims to do; and emphasis to use:
 1. Preconditions
 2. Postconditions
 3. Invariants
-He pens down - "Write `lazy` code: be strict in what you will accept before you begin, and promise as little as possible in return". He further talks about `Data Base Computing` and how we can enymerate the design time by following these steps: 
+He pens down - "Write `lazy` code: be strict in what you will accept before you begin, and promise as little as possible in return". He further talks about `Data Base Computing` and how we can enumerate the design time by following these steps: 
 1. what the input domain range is
 2. what the boundary conditions are
 3. what the routine promises to deliver (and what it doesn't)
@@ -41,7 +41,7 @@ He pens down two types of Invariants:
 Andrew Hunt writes that all errors give us information, the pragmatic programmers tell themselves that if there is an error, something very, very bad has happened.
 `A dead program normally does a lot less damage than a crippled one`.
 He further adds about `Assertive Programming` and it's advantage. 
-Following are few advantages: 
+Following are few points on assertive programming: 
 1. Assertions are also useful checks on an algorithm's operation.
 2. Don't use assertions in place of real error handling.
 3. Leave Assertions Turned On, unless you have critical performance issues.
