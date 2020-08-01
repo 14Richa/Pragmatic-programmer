@@ -25,5 +25,8 @@ Later he talks about `Debugging` and how we should `Fix the Problem, Not the Bla
 9. Question everything - if the bug seems impossible, check your assumptions
 
 #### CHAPTER-3
+##### You can't write Perfect Software
+
+
 
 
