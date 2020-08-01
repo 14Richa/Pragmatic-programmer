@@ -48,8 +48,8 @@ He further talks about `Data Base Computing` and how we can enumerate the design
  </ul>
 He talks about two types of Invariants:
 <ul>
- <li> `Loop Invariants` : Is true before and during the loop.</li>
- <li> `Semantic Invariants` : ie the error should be on the side of not processing a transaction rather than processing a duplicate transaction.</li>
+ <li> Loop Invariants : Is true before and during the loop.</li>
+ <li> Semantic Invariants : ie the error should be on the side of not processing a transaction rather than processing a duplicate transaction.</li>
  </ul>
 
 Andrew Hunt writes that all errors give us information, the pragmatic programmers tell themselves that if there is an error, something very, very bad has happened.
