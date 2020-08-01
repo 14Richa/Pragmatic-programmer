@@ -32,9 +32,11 @@ He adds that  correct software program is one that does no more and no less than
 2. Postconditions
 3. Invariants
 He pens down - "Write `lazy` code: be strict in what you will accept before you begin, and promise as little as possible in return". He further talks about `Data Base Computing` and how we can enumerate the design time by following these steps: 
- 1. what the input domain range is
- 2. what the boundary conditions are
- 3. what the routine promises to deliver (and what it doesn't)
+<ul>
+ <li> what the input domain range is</li>
+ <li> what the boundary conditions are</li>
+ <li> what the routine promises to deliver (and what it doesn't)</li>
+ </ul>
 He pens down two types of Invariants: 
  1. `Loop Invariants`: Is true before and during the loop.
  2. `Semantic Invariants`: ie the error should be on the side of not processing a transaction rather than processing a duplicate transaction.
