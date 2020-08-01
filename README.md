@@ -27,11 +27,14 @@ Later he talks about `Debugging` and how we should `Fix the Problem, Not the Bla
 #### CHAPTER-4
 ###### You can't write Perfect Software
 Andrew Hunt writes that no one in the recent history of computing has ever written a piece of perfect software. Pragmatic Programmers don't trust their code , either. 
+
 He adds that  correct software program is one that does no more and no less than it claims to do; and emphasis to use:
 1. Preconditions
 2. Postconditions
 3. Invariants
-He pens down - "Write `lazy` code: be strict in what you will accept before you begin, and promise as little as possible in return". He further talks about `Data Base Computing` and how we can enumerate the design time by following these steps: 
+He pens down - "Write `lazy` code: be strict in what you will accept before you begin, and promise as little as possible in return". 
+
+He further talks about `Data Base Computing` and how we can enumerate the design time by following these steps: 
 <ul>
  <li> what the input domain range is</li>
  <li> what the boundary conditions are</li>
@@ -40,13 +43,17 @@ He pens down - "Write `lazy` code: be strict in what you will accept before you 
 He pens down two types of Invariants: 
  1. `Loop Invariants`: Is true before and during the loop.
  2. `Semantic Invariants`: ie the error should be on the side of not processing a transaction rather than processing a duplicate transaction.
+
 Andrew Hunt writes that all errors give us information, the pragmatic programmers tell themselves that if there is an error, something very, very bad has happened.
 `A dead program normally does a lot less damage than a crippled one`.
 He further adds about `Assertive Programming` and it's advantage. 
+
 Following are few points on assertive programming: 
- 1. Assertions are also useful checks on an algorithm's operation.
- 2. Don't use assertions in place of real error handling.
- 3. Leave Assertions Turned On, unless you have critical performance issues.
+<ul>
+ <li>Assertions are also useful checks on an algorithm's operation.</li>
+ <li> Don't use assertions in place of real error handling.</li>
+ <li> Leave Assertions Turned On, unless you have critical performance issues.</li>
+ </ul>
 He lastly talks about balancing resources. 
 And ends the chapter with "Finish What You Start"
 
