@@ -69,7 +69,8 @@ And ends the chapter with "Finish What You Start"
 
 #### CHAPTER-5
 ###### Bend or Break 
-In this chapter Andrew Hunt talks about writing flexible code, or code that can be changed easily in order to keep up with changing demands of users, or just for the purposes of maintainability. He further quotes that "Organize your code into cells (modules) and limit the interaction between them. If one module then gets compromised and has to be replaced, the other modules should be able to carry on."
+In this chapter Andrew Hunt talks about writing flexible code, or code that can be changed easily in order to keep up with changing demands of users, or just for the purposes of maintainability. He further quotes that "Organize your code into cells (modules) and limit the interaction between them. 
+If one module then gets compromised and has to be replaced, the other modules should be able to carry on."
 
 
 
